@@ -1,0 +1,36 @@
+name: hobbee_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.4.1
+  cloud_firestore: ^5.6.3
+  provider: ^6.1.2
+  google_fonts: ^6.2.1
+  # appwrite: ^13.0.0
+  image_picker: ^1.1.2
+  http: ^1.2.2
+
+dependency_overrides:
+  flutter_web_auth_2: ^5.0.2
+  # flutter_web_auth_2_android: ^3.0.0
+  # flutter_web_auth_2_ios: ^3.0.0
+  # flutter_web_auth_2_platform_interface: ^3.0.0
+  # flutter_web_auth_2_web: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
